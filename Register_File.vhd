@@ -1,22 +1,3 @@
-----------------------------------------------------------------------------------
--- Company: 
--- Engineer: 
--- 
--- Create Date:    21:52:42 05/05/2017 
--- Design Name: 
--- Module Name:    Register_File - Behavioral 
--- Project Name: 
--- Target Devices: 
--- Tool versions: 
--- Description: 
---
--- Dependencies: 
---
--- Revision: 
--- Revision 0.01 - File Created
--- Additional Comments: 
---
-----------------------------------------------------------------------------------
 library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
 use IEEE.STD_LOGIC_UNSIGNED.ALL;
@@ -53,3 +34,4 @@ process(Rs1_RF, Rs2_RF, Rd_RF, Reset, DataTowrite )
 		end if;
 end process;
 end Arq_register_file;
+
