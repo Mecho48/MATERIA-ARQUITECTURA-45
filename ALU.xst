@@ -1,0 +1,5 @@
+set -tmpdir "D:/procesador4/xst/projnav.tmp"
+set -xsthdpdir "D:/procesador4/xst"
+elaborate
+-ifn ALU.prj
+-ifmt mixed

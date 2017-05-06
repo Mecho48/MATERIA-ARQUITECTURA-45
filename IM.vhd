@@ -1,3 +1,22 @@
+----------------------------------------------------------------------------------
+-- Company: 
+-- Engineer: 
+-- 
+-- Create Date:    21:46:03 05/05/2017 
+-- Design Name: 
+-- Module Name:    IM - Behavioral 
+-- Project Name: 
+-- Target Devices: 
+-- Tool versions: 
+-- Description: 
+--
+-- Dependencies: 
+--
+-- Revision: 
+-- Revision 0.01 - File Created
+-- Additional Comments: 
+--
+----------------------------------------------------------------------------------
 library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
 use IEEE.STD_LOGIC_UNSIGNED.ALL;
@@ -38,7 +57,7 @@ architecture arqInstructionMemory of instructionMemory is
 		return temp_mem;
 	end function;
 	
-	signal instructions : rom_type := InitRomFromFile("prueba.txt");
+	signal instructions : rom_type := InitRomFromFile("archivo.txt");
 	
 begin
 --reset,address, instructions)

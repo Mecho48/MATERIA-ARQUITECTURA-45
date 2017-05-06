@@ -1,0 +1,45 @@
+Running: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -o D:/procesador4/TbUnion_isim_beh.exe -prj D:/procesador4/TbUnion_beh.prj work.TbUnion 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 4
+Turning on mult-threading, number of parallel sub-compilation jobs: 8 
+Determining compilation order of HDL files
+Parsing VHDL file "D:/procesador4/WindowsManager.vhd" into library work
+Parsing VHDL file "D:/procesador4/SEU.vhd" into library work
+Parsing VHDL file "D:/procesador4/Register_File.vhd" into library work
+Parsing VHDL file "D:/procesador4/PSR_Modifier.vhd" into library work
+Parsing VHDL file "D:/procesador4/PSR.vhd" into library work
+Parsing VHDL file "D:/procesador4/PC.vhd" into library work
+Parsing VHDL file "D:/procesador4/MUX.vhd" into library work
+Parsing VHDL file "D:/procesador4/IM.vhd" into library work
+Parsing VHDL file "D:/procesador4/CU.vhd" into library work
+Parsing VHDL file "D:/procesador4/ALU.vhd" into library work
+Parsing VHDL file "D:/procesador4/Add.vhd" into library work
+Parsing VHDL file "D:/procesador4/Union.vhd" into library work
+Parsing VHDL file "D:/procesador4/TbUnion.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Compiling package standard
+Compiling package std_logic_1164
+Compiling package std_logic_arith
+Compiling package std_logic_unsigned
+Compiling package textio
+Compiling package numeric_std
+Compiling architecture arqpc of entity PC [pc_default]
+Compiling architecture arqadd of entity Add [add_default]
+Compiling architecture arqinstructionmemory of entity instructionMemory [instructionmemory_default]
+Compiling architecture arq_register_file of entity Register_file [register_file_default]
+Compiling architecture arqseu of entity SEU [seu_default]
+Compiling architecture arqmux of entity MUX [mux_default]
+Compiling architecture arq_cu of entity CU [cu_default]
+Compiling architecture arqalu of entity ALU [alu_default]
+Compiling architecture behavioral of entity PSR_Modifier [psr_modifier_default]
+Compiling architecture arq_psr of entity PSR [psr_default]
+Compiling architecture arq_wm of entity WindowsManager [windowsmanager_default]
+Compiling architecture arq_union of entity Union [union_default]
+Compiling architecture behavior of entity tbunion
+Time Resolution for simulation is 1ps.
+Waiting for 10 sub-compilation(s) to finish...
+Compiled 31 VHDL Units
+Built simulation executable D:/procesador4/TbUnion_isim_beh.exe
+Fuse Memory Usage: 36936 KB
+Fuse CPU Usage: 936 ms

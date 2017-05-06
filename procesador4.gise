@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<generated_project xmlns="http://www.xilinx.com/XMLSchema" xmlns:xil_pn="http://www.xilinx.com/XMLSchema">
+
+  <!--                                                          -->
+
+  <!--             For tool use only. Do not edit.              -->
+
+  <!--                                                          -->
+
+  <!-- ProjectNavigator created generated project file.         -->
+
+  <!-- For use in tracking generated file and other information -->
+
+  <!-- allowing preservation of process status.                 -->
+
+  <!--                                                          -->
+
+  <!-- Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved. -->
+
+  <version xmlns="http://www.xilinx.com/XMLSchema">11.1</version>
+
+  <sourceproject xmlns="http://www.xilinx.com/XMLSchema" xil_pn:fileType="FILE_XISE" xil_pn:name="procesador4.xise"/>
+
+  <files xmlns="http://www.xilinx.com/XMLSchema">
+    <file xil_pn:fileType="FILE_LSO" xil_pn:name=".lso"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="ALU.prj"/>
+    <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="ALU.stx"/>
+    <file xil_pn:fileType="FILE_XST" xil_pn:name="ALU.xst"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="Add.prj"/>
+    <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="Add.stx"/>
+    <file xil_pn:fileType="FILE_XST" xil_pn:name="Add.xst"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="CU.prj"/>
+    <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="CU.stx"/>
+    <file xil_pn:fileType="FILE_XST" xil_pn:name="CU.xst"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="MUX.prj"/>
+    <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="MUX.stx"/>
+    <file xil_pn:fileType="FILE_XST" xil_pn:name="MUX.xst"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="PC.prj"/>
+    <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="PC.stx"/>
+    <file xil_pn:fileType="FILE_XST" xil_pn:name="PC.xst"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="PSR.prj"/>
+    <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="PSR.stx"/>
+    <file xil_pn:fileType="FILE_XST" xil_pn:name="PSR.xst"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="PSR_Modifier.prj"/>
+    <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="PSR_Modifier.stx"/>
+    <file xil_pn:fileType="FILE_XST" xil_pn:name="PSR_Modifier.xst"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="Register_file.prj"/>
+    <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="Register_file.stx"/>
+    <file xil_pn:fileType="FILE_XST" xil_pn:name="Register_file.xst"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="SEU.prj"/>
+    <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="SEU.stx"/>
+    <file xil_pn:fileType="FILE_XST" xil_pn:name="SEU.xst"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="TbUnion_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="TbUnion_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="TbUnion_isim_beh.wdb"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="TbUnion_stx_beh.prj"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="Union.prj"/>
+    <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="Union.stx"/>
+    <file xil_pn:fileType="FILE_XST" xil_pn:name="Union.xst"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="Union_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="Union_stx_beh.prj"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="WindowsManager.prj"/>
+    <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="WindowsManager.stx"/>
+    <file xil_pn:fileType="FILE_XST" xil_pn:name="WindowsManager.xst"/>
+    <file xil_pn:fileType="FILE_LOG" xil_pn:name="fuse.log"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="instructionMemory.prj"/>
+    <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="instructionMemory.stx"/>
+    <file xil_pn:fileType="FILE_XST" xil_pn:name="instructionMemory.xst"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="isim"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_CMD" xil_pn:name="isim.cmd"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_LOG" xil_pn:name="isim.log"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_INI" xil_pn:name="xilinxsim.ini"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xst"/>
+  </files>
+
+  <transforms xmlns="http://www.xilinx.com/XMLSchema">
+    <transform xil_pn:end_ts="1494039460" xil_pn:name="TRAN_copyInitialToAbstractSimulation" xil_pn:start_ts="1494039460">
+      <status xil_pn:value="SuccessfullyRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1494040631" xil_pn:in_ck="7107072005658069043" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1494040631">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="ALU.vhd"/>
+      <outfile xil_pn:name="Add.vhd"/>
+      <outfile xil_pn:name="Add_Tb.vhd"/>
+      <outfile xil_pn:name="CU.vhd"/>
+      <outfile xil_pn:name="IM.vhd"/>
+      <outfile xil_pn:name="MUX.vhd"/>
+      <outfile xil_pn:name="PC.vhd"/>
+      <outfile xil_pn:name="PC_Tb.vhd"/>
+      <outfile xil_pn:name="PSR.vhd"/>
+      <outfile xil_pn:name="PSR_Modifier.vhd"/>
+      <outfile xil_pn:name="PSR_Tb.vhd"/>
+      <outfile xil_pn:name="PsrModifier_Tb.vhd"/>
+      <outfile xil_pn:name="RF_Tb.vhd"/>
+      <outfile xil_pn:name="Register_File.vhd"/>
+      <outfile xil_pn:name="SEU.vhd"/>
+      <outfile xil_pn:name="TbUnion.vhd"/>
+      <outfile xil_pn:name="Tb_ALU.vhd"/>
+      <outfile xil_pn:name="Tb_CU.vhd"/>
+      <outfile xil_pn:name="Tb_MUX.vhd"/>
+      <outfile xil_pn:name="Tb_SEU.vhd"/>
+      <outfile xil_pn:name="Union.vhd"/>
+      <outfile xil_pn:name="WindowsManager.vhd"/>
+      <outfile xil_pn:name="WindowsManager_Tb.vhd"/>
+    </transform>
+    <transform xil_pn:end_ts="1494040721" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="5288965902603185109" xil_pn:start_ts="1494040721">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1494040721" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="-571864637928116969" xil_pn:start_ts="1494040721">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1494040637" xil_pn:name="TRAN_regenerateCoresSim" xil_pn:prop_ck="-1397709885602017092" xil_pn:start_ts="1494040637">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1494040637" xil_pn:in_ck="7107072005658069043" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1494040637">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="ALU.vhd"/>
+      <outfile xil_pn:name="Add.vhd"/>
+      <outfile xil_pn:name="Add_Tb.vhd"/>
+      <outfile xil_pn:name="CU.vhd"/>
+      <outfile xil_pn:name="IM.vhd"/>
+      <outfile xil_pn:name="MUX.vhd"/>
+      <outfile xil_pn:name="PC.vhd"/>
+      <outfile xil_pn:name="PC_Tb.vhd"/>
+      <outfile xil_pn:name="PSR.vhd"/>
+      <outfile xil_pn:name="PSR_Modifier.vhd"/>
+      <outfile xil_pn:name="PSR_Tb.vhd"/>
+      <outfile xil_pn:name="PsrModifier_Tb.vhd"/>
+      <outfile xil_pn:name="RF_Tb.vhd"/>
+      <outfile xil_pn:name="Register_File.vhd"/>
+      <outfile xil_pn:name="SEU.vhd"/>
+      <outfile xil_pn:name="TbUnion.vhd"/>
+      <outfile xil_pn:name="Tb_ALU.vhd"/>
+      <outfile xil_pn:name="Tb_CU.vhd"/>
+      <outfile xil_pn:name="Tb_MUX.vhd"/>
+      <outfile xil_pn:name="Tb_SEU.vhd"/>
+      <outfile xil_pn:name="Union.vhd"/>
+      <outfile xil_pn:name="WindowsManager.vhd"/>
+      <outfile xil_pn:name="WindowsManager_Tb.vhd"/>
+    </transform>
+    <transform xil_pn:end_ts="1494040727" xil_pn:in_ck="7107072005658069043" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="-5203549415656740212" xil_pn:start_ts="1494040721">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="TbUnion_beh.prj"/>
+      <outfile xil_pn:name="TbUnion_isim_beh.exe"/>
+      <outfile xil_pn:name="fuse.log"/>
+      <outfile xil_pn:name="isim"/>
+      <outfile xil_pn:name="isim.log"/>
+      <outfile xil_pn:name="xilinxsim.ini"/>
+    </transform>
+    <transform xil_pn:end_ts="1494040727" xil_pn:in_ck="-2635449157952823962" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="-3941567175961058919" xil_pn:start_ts="1494040727">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="TbUnion_isim_beh.wdb"/>
+      <outfile xil_pn:name="isim.cmd"/>
+      <outfile xil_pn:name="isim.log"/>
+    </transform>
+  </transforms>
+
+</generated_project>

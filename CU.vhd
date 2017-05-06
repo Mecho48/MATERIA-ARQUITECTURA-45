@@ -1,3 +1,22 @@
+----------------------------------------------------------------------------------
+-- Company: 
+-- Engineer: 
+-- 
+-- Create Date:    21:45:28 05/05/2017 
+-- Design Name: 
+-- Module Name:    CU - Behavioral 
+-- Project Name: 
+-- Target Devices: 
+-- Tool versions: 
+-- Description: 
+--
+-- Dependencies: 
+--
+-- Revision: 
+-- Revision 0.01 - File Created
+-- Additional Comments: 
+--
+----------------------------------------------------------------------------------
 library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
 
@@ -18,7 +37,7 @@ begin
 					case(Op3) is
 								when "000000" =>			--Add
 										AluOp <= Op3;
-								when "010000" =>        --sub
+								when "000100" =>        --sub
 										AluOp <= Op3;
 								when "000010" => 			--Or
 										AluOp <= Op3;
@@ -32,6 +51,39 @@ begin
 										AluOp <= Op3;
 								when "000111" => 			--Xnor
 										AluOp <= Op3;
+								when "010001" => 			--Andcc
+										AluOp <= Op3;
+								when "010101" => 			--AndNcc
+										AluOp <= Op3;		
+								when "010010" => 			--Orcc
+										AluOp <= Op3;		
+								when "010110" => 			--OrNcc
+										AluOp <= Op3;									
+								when "010011" => 			--Xorcc
+										AluOp <= Op3;		
+								when "010111" => 			--Xnorcc
+										AluOp <= Op3;		
+								when "010000" => 			--Addcc
+										AluOp <= Op3;	
+								when "001000" => 			--addx
+										AluOp <= Op3;	
+								when "011000" => 			--addxcc
+										AluOp <= Op3;	
+								when "010100" => 			--Subcc
+										AluOp <= Op3;	
+								when "001100" => 			--Subx
+										AluOp <= Op3;	
+								when "011100" => 			--Subxcc
+										AluOp <= Op3;	
+								when "100101" => 			--Sll
+										AluOp <= Op3;
+								when "100110" => 			--Srl
+										AluOp <= Op3;
+								when "111100" => 			--save
+										AluOp <= Op3;
+								when "111101" => 			--restore
+										AluOp <= Op3;
+								
 								when others => 
 										AluOp <= (others => '0');
 					  end case;

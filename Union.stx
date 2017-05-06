@@ -1,0 +1,57 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to D:/procesador4/xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.14 secs
+ 
+--> Parameter xsthdpdir set to D:/procesador4/xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.14 secs
+ 
+--> WARNING:Xst:3164 - Option "-debug" found multiple times in the command line. Only the first occurence is considered.
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "D:/procesador4/PC.vhd" in Library work.
+Architecture arqpc of Entity pc is up to date.
+Compiling vhdl file "D:/procesador4/Add.vhd" in Library work.
+Architecture arqadd of Entity add is up to date.
+Compiling vhdl file "D:/procesador4/IM.vhd" in Library work.
+Architecture arqinstructionmemory of Entity instructionmemory is up to date.
+Compiling vhdl file "D:/procesador4/Register_File.vhd" in Library work.
+Architecture arq_register_file of Entity register_file is up to date.
+Compiling vhdl file "D:/procesador4/SEU.vhd" in Library work.
+Architecture arqseu of Entity seu is up to date.
+Compiling vhdl file "D:/procesador4/MUX.vhd" in Library work.
+Architecture arqmux of Entity mux is up to date.
+Compiling vhdl file "D:/procesador4/CU.vhd" in Library work.
+Architecture arq_cu of Entity cu is up to date.
+Compiling vhdl file "D:/procesador4/ALU.vhd" in Library work.
+Architecture arqalu of Entity alu is up to date.
+Compiling vhdl file "D:/procesador4/PSR_Modifier.vhd" in Library work.
+Architecture behavioral of Entity psr_modifier is up to date.
+Compiling vhdl file "D:/procesador4/PSR.vhd" in Library work.
+Architecture arq_psr of Entity psr is up to date.
+Compiling vhdl file "D:/procesador4/WindowsManager.vhd" in Library work.
+Architecture arq_wm of Entity windowsmanager is up to date.
+Compiling vhdl file "D:/procesador4/Union.vhd" in Library work.
+Entity <Union> compiled.
+Entity <Union> (Architecture <Arq_Union>) compiled.
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.30 secs
+ 
+--> 
+
+Total memory usage is 264888 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    1 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+
